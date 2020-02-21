@@ -10,12 +10,13 @@
   <body>
     <div id="app"></div>
 
-    <script>
+    <script type="text/babel">
       class App extends React.Component{
         render() {
           return (
             <div className="app-content"> {/* Always needs _one_ root element */}
               <h1>Hey ninjas</h1>
+              <p>{ Math.random() * 10 }</p>
             </div>
           )
         }
