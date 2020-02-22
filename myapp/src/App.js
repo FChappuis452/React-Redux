@@ -1,4 +1,5 @@
 import React from 'react';
+import Ninjas from './Ninjas';
 
 
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <h1>My first React App</h1>
       <p>Welcome</p>
+      <Ninjas/>
     </div>
   );
 }
