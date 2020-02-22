@@ -17,9 +17,14 @@
           age: 36
         }
         
-        handleClick(e){
+        /* functionName = (parameters) => {} allows the use of the 'this' keyword */
+        handleClick = (e) =>{
           //console.log(e.target);
-          console.log(this.state);
+          this.setState({
+            name: 'Yoshi'
+          });
+          console.log(this.state); 
+          
         }
 
         handleMouseOver(e){
